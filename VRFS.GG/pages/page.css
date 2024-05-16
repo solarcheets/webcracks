@@ -1,0 +1,43 @@
+.page {
+  min-width: 31rem;
+  max-width: 100%;
+  /* height: 344.5vw; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #0C1028; */
+  background-color: #fff;
+
+}
+
+html, body {
+  font-size: 1px;
+}
+
+@media screen and (max-width: 1300px) {
+  html, body {
+    font-size: 0.07693vw;
+    /* font-size: 20px; */
+  }
+}
+/* @media screen and (max-width: 768px) {
+  html, body {
+    font-size: 0.067vw;
+  }
+} */
+@media screen and (max-width: 310px) {
+  html, body {
+    font-size: 0.18px;
+    /* font-size: 20px; */
+  }
+}
+
+.page__test {
+  align-items: flex-start;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

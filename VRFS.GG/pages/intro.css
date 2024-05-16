@@ -1,0 +1,213 @@
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../Image/intro-back.png');
+  background-size: 5200px 2292px ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro__container {
+  width: 1230rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 204rem 0 0 80rem;
+}
+
+.intro__logo {
+  margin: 0;
+  width: 274.5rem;
+  height: 71.9rem;
+}
+
+.intro__title {
+  width: 1109rem;
+  margin: 141.1rem 0 0;
+  padding: 0;
+  font-family: 'KDT';
+  font-weight: 700;
+  font-size: 51.2rem;
+  line-height: 148%;
+  color: #FBFBFB;
+}
+
+.link__title {
+  width: 1109rem;
+  margin: 141.1rem 0 0;
+  padding: 0;
+  font-family: 'KDT';
+  font-weight: 700;
+  font-size: 51.2rem;
+  line-height: 148%;
+  color: #FBFBFB;
+}
+
+.intro__video {
+  width: 1095.1rem;
+  height: 522.4rem;
+  margin: 94rem 0 0;
+  background: rgba(0, 0, 0, 0.49);
+  border-radius: 74.3rem;
+  border: 1.5rem solid #FBFBFB;
+  overflow: hidden;
+  position: relative;
+}
+
+.intro__devices {
+  padding: 0;
+  list-style: none;
+  margin: 113.5rem 0 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.intro__devices__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 56.2rem 0 0;
+}
+.intro__devices__text {
+  font-family: 'KDT';
+  font-weight: 400;
+  font-size: 17rem;
+  line-height: 134%;
+  color: #EDEDED;
+}
+.intro__devices__button {
+  width: 327.5rem;
+  height: 98.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(217, 217, 217, 0.06);
+  border: 1.5rem solid #FFF;
+  border-radius: 58.8rem;
+}
+.intro__devices__meta {
+  width: 203.6rem;
+  height: 25.9rem;
+}
+.intro__devices__steam {
+  width: 163.3rem;
+  height: 49.2rem;
+}
+.intro__devices__pico {
+  width: 142.6rem;
+  height: 41.5rem;
+}
+
+.intro__community-title {
+  width: 1109rem;
+  margin: 177.8rem 0 0;
+  padding: 0;
+  font-family: 'KDT';
+  font-weight: 700;
+  font-size: 51.2rem;
+  line-height: 134%;
+  color: #FBFBFB;
+}
+
+.secondary__text-title {
+  width: 1109rem;
+  margin: 77.8rem 0 0;
+  padding: 0;
+  font-family: 'KDT';
+  font-weight: 700;
+  font-size: 31.2rem;
+  line-height: 134%;
+  color: #FBFBFB;
+}
+
+.secondary__text-button {
+  width: 1109rem;
+  margin: 177.8rem 0 0;
+  padding: 0;
+  font-family: 'KDT';
+  font-weight: 700;
+  font-size: 21.2rem;
+  line-height: 134%;
+  color: #FBFBFB;
+}
+
+.intro__community {
+  padding: 0;
+  list-style: none;
+  margin: 96.9rem 0 270rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.secondary__buttons {
+  padding: 0;
+  list-style: none;
+  margin: 26.9rem 0 16.9rem 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.intro__community__item {
+  width: 140.2rem;
+  height: 140.2rem;
+  margin: 0 77.8rem 0rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(32, 44, 25, 0.8);
+  border: 1.5rem solid #FFF;
+  border-radius: 30.4rem;
+}
+.button__item {
+  width: 70.2rem;
+  height: 70.2rem;
+  margin: 0 34.8rem 0rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(32, 44, 25, 0.8);
+  border: 1.5rem solid #FFF;
+  border-radius: 15.4rem;
+}
+
+.button__item_long {
+  width: 270.2rem;
+  height: 70.2rem;
+  margin: 0 34.8rem 0rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(32, 44, 25, 0.8);
+  border: 1.5rem solid #FFF;
+  border-radius: 15.4rem;
+}
+
+
+.intro__community__item:hover {
+  cursor: pointer;
+}
+.intro__community__twitch {
+  width: 62.2rem;
+  height: 65.0rem;
+}
+.intro__community__discord {
+  width: 95.4rem;
+  height: 109.1rem;
+}
+.intro__community__instagram {
+  width: 85.3rem;
+  height: 82.3rem;
+}
+.intro__community__youtube {
+  width: 79.2rem;
+  height: 55.6rem;
+}
+.intro__community__reddit {
+  width: 97.9rem;
+  height: 97.9rem;
+}
+.intro__community__tiktok {
+  width: 67.0rem;
+  height: 76.2rem;
+}
