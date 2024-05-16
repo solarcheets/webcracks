@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="pages/style2.css">
+    <link rel="stylesheet" type="text/css" href="pages/mobile-menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <meta name="theme-color" content="#ffffff">
+    <title>VRFS - VR Football soccer simulator</title>
+</head>
+
+
+
+<body class="main">
+    <div class="header">
+        <img class="logo" src="Image/logo.png">
+        <img class="menu" id="button-menu-open" src="Image/icons/menu.png">
+    </div>
+    <ul class="tabs">
+        <li><a class="btn tab" href="#t-shirt-front"><img class="icon-btn icon-btn-t-shirt"
+                    src="Image/t-shirt.png">FRONT</a></li>
+        <li><a class="btn tab" href="#t-shirt-back"><img class="icon-btn icon-btn-t-shirt"
+                    src="Image/t-shirt.png">BACK</a></li>
+        <li><a class="btn tab" href="#shorts-front"><img class="icon-btn icon-btn-shorts"
+                    src="Image/shorts.png">FRONT</a></li>
+        <li><a class="btn tab" href="#shorts-back"><img class="icon-btn icon-btn-shorts"
+                    src="Image/shorts.png">BACK</a></li>
+        <li><a class="btn tab" href="#getrs"><img class="icon-btn icon-btn-getrs" src="Image/getrs.png">BOTH
+                SIDES</a></li>
+        <li><a class="btn tab" href="#number-color"><img class="icon-btn icon-btn-text-color"
+                    src="Image/color.png">TEXT COLOR</a></li>
+    </ul>
+    <div class="main-content">
+        <div class="block" id="t-shirt-front">
+            <div class="canvas-container" id="canvas-container">
+                <div class="images-container"></div>
+                <img class="clothing-template" src="Image/t-shirt-front.png">
+                <img class="clothing-template stroke" src="Image/t-shirt-front2.png">
+            </div>
+            <div class="controls">
+                <button class="button-control add-image"><img class="icon-btn icon-btn-add"
+                        src="Image/add.png">ADD IMAGE</button>
+                <label class="button-control change-color">
+                    <img class="icon-btn icon-btn-base-color" src="Image/color.png">
+                    BASE COLOR
+                    <input type="color" class="background-color color-hidden" value="#ffffff">
+                </label>
+                <button class="button-control clear"><img class="icon-btn icon-btn-clear"
+                        src="Image/clear.png"></button>
+            </div>
+        </div>
+        <div class="block" id="t-shirt-back">
+            <div class="canvas-container" id="canvas-container">
+                <div class="images-container"></div>
+                <img class="clothing-template" src="Image/t-shirt-back.png">
+                <img class="clothing-template stroke" src="Image/t-shirt-back2.png">
+            </div>
+            <div class="controls">
+                <button class="button-control add-image"><img class="icon-btn icon-btn-add"
+                        src="Image/add.png">ADD IMAGE</button>
+                <label class="button-control change-color">
+                    <img class="icon-btn icon-btn-base-color" src="Image/color.png">
+                    BASE COLOR
+                    <input type="color" class="background-color color-hidden" value="#ffffff">
+                </label>
+                <button class="button-control clear"><img class="icon-btn icon-btn-clear"
+                        src="Image/clear.png"></button>
+            </div>
+        </div>
+        <div class="block" id="shorts-front">
+            <div class="canvas-container" id="canvas-container">
+                <div class="images-container"></div>
+                <img class="clothing-template" src="Image/shorts-front.png">
+                <img class="clothing-template stroke" src="Image/shorts-front2.png">
+            </div>
+            <div class="controls">
+                <button class="button-control add-image"><img class="icon-btn icon-btn-add"
+                        src="Image/add.png">ADD IMAGE</button>
+                <label class="button-control change-color">
+                    <img class="icon-btn icon-btn-base-color" src="Image/color.png">
+                    BASE COLOR
+                    <input type="color" class="background-color color-hidden" value="#ffffff">
+                </label>
+                <button class="button-control clear"><img class="icon-btn icon-btn-clear"
+                        src="Image/clear.png"></button>
+            </div>
+        </div>
+        <div class="block" id="shorts-back">
+            <div class="canvas-container" id="canvas-container">
+                <div class="images-container"></div>
+                <img class="clothing-template" src="Image/shorts-back.png">
+                <img class="clothing-template stroke" src="Image/shorts-back2.png">
+            </div>
+            <div class="controls">
+                <button class="button-control add-image"><img class="icon-btn icon-btn-add"
+                        src="Image/add.png">ADD IMAGE</button>
+                <label class="button-control change-color">
+                    <img class="icon-btn icon-btn-base-color" src="Image/color.png">
+                    BASE COLOR
+                    <input type="color" class="background-color color-hidden" value="#ffffff">
+                </label>
+                <button class="button-control clear"><img class="icon-btn icon-btn-clear"
+                        src="Image/clear.png"></button>
+            </div>
+        </div>
+        <div class="block" id="getrs">
+            <div class="canvas-container" id="canvas-container">
+                <div class="images-container"></div>
+                <img class="clothing-template" src="Image/getrs/getrs.png">
+                <img class="clothing-template stroke" src="Image/getrs2.png">
+            </div>
+            <div class="controls">
+                <button class="button-control add-image"><img class="icon-btn icon-btn-add"
+                        src="Image/add.png">ADD IMAGE</button>
+                <label class="button-control change-color">
+                    <img class="icon-btn icon-btn-base-color" src="Image/color.png">
+                    BASE COLOR
+                    <input type="color" class="background-color color-hidden" value="#ffffff">
+                </label>
+                <button class="button-control clear"><img class="icon-btn icon-btn-clear"
+                        src="Image/clear.png"></button>
+            </div>
+        </div>
+        <div class="block" id="number-color">
+            <div class="canvas-container" id="canvas-container">
+                <div class="images-container"></div>
+                <img class="clothing-template" src="Image/number-color.png">
+                <img class="clothing-template stroke" src="Image/number-color2.png">
+            </div>
+            <div class="controls">
+                <button class="button-control add-image button-disable"><img class="icon-btn icon-btn-add"
+                        src="Image/add.png">ADD IMAGE</button>
+                <label class="button-control change-color">
+                    <img class="icon-btn icon-btn-base-color" src="Image/color.png">
+                    BASE COLOR
+                    <input type="color" class="background-color color-hidden" value="#ffffff">
+                </label>
+                <button class="button-control clear"><img class="icon-btn icon-btn-clear"
+                        src="Image/clear.png"></button>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="button button-publish" id="button-publish">PUBLISH</button>
+    <p class="text-rules">When you click 'PUBLISH', you are agreeing to our <a class="text-rules-link" href="https://vrfs.gg/en/docs/jerseys-terms" target="_blank">Terms of Service</a></p>
+<p class="text-rules"><a class="text-rules-link"  href="/graphics-kit/VRFS-Graphics.zip">Download VRFS / IIN logos</a></p>
+    <input type="file" id="file-input" style="display:none" accept="image/png">
+
+
+
+    <section class="mobile-menu" id="mobile-menu">
+        <div class="header header-menu">
+            <img class="logo" src="Image/logo.png">
+            <img class="menu" id="button-menu-close" src="Image/icon-close.svg" >
+        </div>
+        <ul class="mobile-menu__navigatoin">
+            <li class="mobile-menu__navigatoin-link">
+                <a class="mobile__navigatoin-link-text" href="/">Create jersey</a>
+            </li>
+            <li class="mobile-menu__navigatoin-link">
+                <a class="mobile__navigatoin-link-text" href="/graphics-kit/VRFS-Graphics.zip">Download VRFS / IIN logos</a>
+            </li>
+
+            <li class="mobile-menu__navigatoin-link">
+                <a class="mobile__navigatoin-link-text" href="https://vrfs.gg/en/docs/jerseys-terms" target="_blank">Terms of Service</a>
+            </li>
+            <li class="mobile-menu__navigatoin-link">
+                <a class="mobile__navigatoin-link-text" href="https://vrfs.gg/en/docs/privacy/" target="_blank">Privacy policy</a>
+            </li>
+        </ul>
+    </section>
+
+    <script src="JavaScript/mobile-menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="JavaScript/screenshot.js"></script>
+    <script src="JavaScript/app.js"></script>
+
+</body>
+
+</html>
